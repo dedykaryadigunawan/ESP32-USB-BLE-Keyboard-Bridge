@@ -37,7 +37,7 @@ Karena perbedaan arsitektur memori pada Bluetooth ESP32, **Anda WAJIB menggunaka
 
 ## 🚀 Cara Instalasi & Flash ke ESP32-S3
 
-1.  **Install semua software dan library** sesuai dengan versi yang disebutkan di atas. Khusus untuk file `ESP32_BLE_HID_Combo_Modified.zip`, install via menu `Sketch` -> `Include Library` -> `Add .ZIP Library...` di Arduino IDE.
+1.  **Install semua software dan library** sesuai dengan versi yang disebutkan di atas. Khusus untuk file `ESP32_BLE_HID_Combo.zip`, install via menu `Sketch` -> `Include Library` -> `Add .ZIP Library...` di Arduino IDE.
 2.  Buka file `USB_BLE_Bridge/USB_BLE_Bridge.ino`.
 3.  **Pengaturan Menu Tools (Sangat Penting!):**
     *   **Board:** `ESP32S3 Dev Module`
