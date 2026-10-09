@@ -16,12 +16,6 @@ Fitur Unggulan:
 3.  Barcode Scanner atau Keyboard USB.
 4.  Powerbank atau sumber daya 5V.
 
-**Koneksi Pin (Wiring USB ke ESP32-S3):**
-*   **USB D-**  -> GPIO 19
-*   **USB D+**  -> GPIO 20
-*   **USB 5V**  -> VBUS / 5V (Gunakan step-up jika mengambil daya dari baterai 3.7V)
-*   **USB GND** -> GND
-
 ---
 
 ## ⚙️ Persyaratan Perangkat Lunak (Wajib Diikuti!)
@@ -50,7 +44,7 @@ Karena perbedaan arsitektur memori pada Bluetooth ESP32, **Anda WAJIB menggunaka
     *   **USB Mode:** `Hardware CDC and JTAG` *(Wajib agar pin D+/D- bisa dipakai USB Host)*
     *   **PSRAM:** `OPI PSRAM` (Atau sesuaikan dengan spesifikasi board Anda)
     *   **Partition Scheme:** `Huge APP (3MB No OTA/1MB SPIFFS)` *(Wajib karena library Bluetooth sangat besar)*
-    *   **CPU Frequency:** `120MHz` *(Disarankan untuk menghemat baterai Powerbank)*
+    *   **CPU Frequency:** `240MHz` *(Disarankan `160MHz` untuk menghemat baterai Powerbank)*
 4.  Sambungkan ESP32-S3 ke PC, klik **Upload**.
 5.  Jika berhasil, Serial Monitor (Baudrate 115200) akan menampilkan `[BLE] Advertising as 'USB-BLE Dev 1'`.
 6.  Buka Bluetooth di HP/PC Anda, cari perangkat, dan *pairing*!
