@@ -31,7 +31,7 @@ Karena perbedaan arsitektur memori pada Bluetooth ESP32, **Anda WAJIB menggunaka
 4.  **Library ESP32_USB_Host_HID**:
     *   Download dari [github.com/esp32beans/ESP32_USB_Host_HID](https://github.com/esp32beans/ESP32_USB_Host_HID).
 5.  **Library ESP32_BLE_Combo (Versi Modifikasi)**:
-    *   Gunakan file `ESP32_BLE_HID_Combo_Modified.zip` yang ada di *repository* ini. Library ini sudah dimodifikasi untuk menyelesaikan masalah *Double Inclusion*, *Null Pointer Crash*, dan kompatibilitas murni dengan NimBLE.
+    *   Gunakan file `ESP32_BLE_HID_Combo.zip` yang ada di *repository* ini. Library ini sudah dimodifikasi untuk menyelesaikan masalah *Double Inclusion*, *Null Pointer Crash*, dan kompatibilitas murni dengan NimBLE.
 
 ---
 
